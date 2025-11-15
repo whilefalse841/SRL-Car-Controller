@@ -1,5 +1,5 @@
 # SRL-Car-Controller
-Allows connection to and control of 'Shell Racing Legends' RC cars on Windows using a controller.
+Allows connection to and control of 'Shell Racing Legends' RC cars on Windows using a controller. Tested with Xinput (Xbox controllers).
 
 ![screenshot](https://raw.githubusercontent.com/whilefalse841/SRL-Car-Controller/refs/heads/main/screenshot.png)
 
