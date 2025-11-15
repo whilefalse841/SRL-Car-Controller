@@ -1,14 +1,15 @@
 # SRL-Car-Controller
 Allows to connect to and remotely control "Shell Racing Legends" RC cars on Windows using a controller.
 
+![screenshot](https://raw.githubusercontent.com/whilefalse841/SRL-Car-Controller/refs/heads/main/screenshot.png)
+
 Based on `control.py` found in https://github.com/mesailde/ShellRacingRemote. Changes include:
 - controller support (tested with Xinput controllers)
 - controlling the car when the window isn't in focus, ability to pick used controller slot (should allow for multiplayer, not tested yet)
 - automatically scanning for available Bluetooth devices and filtering for device names of known supported models
+- possible optimization in the way the Bluetooth commands are sent over
 
-Controls displayed 
-
-Tested with `SL-499P N`.
+Controls are as displayed in the app.
 
 ### Supported models
 
