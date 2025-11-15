@@ -11,6 +11,16 @@ Based on `control.py` found in https://github.com/mesailde/ShellRacingRemote. Ch
 
 Controls are as displayed in the app.
 
+## How to use
+1. Enable Bluetooth
+2. Launch the .exe
+3. Wait for the Bluetooth scanning to finish
+4. Pick a car from the list
+5. Wait until the connection is established
+
+If any of these steps result in an error, try again. Maybe pair it with your PC through the Windows Bluetooth settings. The car's Bluetooth connection can be janky sometimes. 
+
+
 ### Supported models
 
 | Internal Name       | Display Name                        | Bluetooth ID          |
