@@ -1,5 +1,5 @@
 # SRL-Car-Controller
-Controls 'Shell Racing Legends' RC cars on Windows via an controller.
+Controls 'Shell Racing Legends' RC cars on Windows via a controller.
 
 ![screenshot](https://raw.githubusercontent.com/whilefalse841/SRL-Car-Controller/refs/heads/main/screenshot.png)
 
