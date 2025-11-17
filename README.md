@@ -21,7 +21,7 @@ Controls are shown in the app.
 4. Select a detected car.
 5. Wait for the connection to establish.
    
-If something fails, retry or manually pair the car in Windows Bluetooth settings. The initial connection can be unreliable at times.
+If something fails, retry or manually pair the car in Windows Bluetooth settings. The initial connection can be unreliable at times but works fine once connected.
 
 
 
