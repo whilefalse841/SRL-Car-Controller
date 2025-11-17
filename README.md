@@ -16,7 +16,7 @@ Controls are shown in the app.
 ## How to use
 
 1. Enable Bluetooth.
-2. Launch the `.exe`.
+2. Launch the program.
 3. Wait for Bluetooth scanning to complete.
 4. Select a detected car.
 5. Wait for the connection to establish.
