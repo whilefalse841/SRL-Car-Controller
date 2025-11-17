@@ -1,25 +1,31 @@
 # SRL-Car-Controller
-Allows connection to and control of 'Shell Racing Legends' RC cars on Windows using a controller. Tested with Xinput (Xbox controllers).
+Controls 'Shell Racing Legends' RC cars on Windows via an controller.
 
 ![screenshot](https://raw.githubusercontent.com/whilefalse841/SRL-Car-Controller/refs/heads/main/screenshot.png)
 
-Based on `control.py` found in https://github.com/mesailde/ShellRacingRemote. Changes include:
-- controller support (tested with Xinput controllers)
-- controlling the car when the window isn't in focus, ability to pick used controller slot (should allow for multiplayer, not tested yet)
-- automatically scanning for available Bluetooth devices and filtering for device names of known supported models
-- possible optimization in the way the Bluetooth commands are sent over
+Based on `control.py` found in https://github.com/mesailde/ShellRacingRemote.
 
-Controls are as displayed in the app.
+### Improvements over the original
+* Controller support (tested with Xinput)
+* Works even when the window is not focused; controller slot is selectable (possible multiplayer, untested)
+* Automatic Bluetooth scanning with filtering for supported car models
+* Minor Bluetooth command optimizations
+
+Controls are shown in the app.
 
 ## How to use
-1. Enable Bluetooth
-2. Launch the .exe
-3. Wait for the Bluetooth scanning to finish
-4. Pick a car from the list
-5. Wait until the connection is established
 
-If any of these steps result in an error, try again. Maybe pair it with your PC through the Windows Bluetooth settings. The car's Bluetooth connection can be janky sometimes. 
+1. Enable Bluetooth.
+2. Launch the `.exe`.
+3. Wait for Bluetooth scanning to complete.
+4. Select a detected car.
+5. Wait for the connection to establish.
+   
+If something fails, retry or manually pair the car in Windows Bluetooth settings. The initial connection can be unreliable at times.
 
+
+
+##### Disclaimer: The executable may trigger antivirus warnings due to how it listens for controller input and sends periodic Bluetooth messages, as well as the fact that it's a single-file exe made with PyInstaller. If you prefer full transparency and already have Python and the required libraries installed, you can run main.py instead. The app will be updated if a reliable way to reduce false positives is found.
 
 ### Supported models
 
@@ -45,3 +51,5 @@ If any of these steps result in an error, try again. Maybe pair it with your PC 
 | SF90SPIDER          | SF90 Spider                         | `SL-SF90 Spider`      |
 | SF90SPIDER(BLACK)   | SF90 Spider (Black)                 | `SL-SF90 Spider N`    |
 | ShellCar            | *(string vazia)*                    | `SL-Shell Car`        |
+
+##### Car list copied from https://github.com/mesailde/ShellRacingRemote.
